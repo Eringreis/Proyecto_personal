@@ -1,0 +1,79 @@
+html {
+    font-size: 62.5%;
+    }
+    body {
+        font-size: 16px;
+        font-family:'krub' , sans-serif;
+    }
+body {
+    font-size: 16px;
+    font-family:'krub', sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 100vt;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+h1 {
+    text-align: center;
+    font-size: 3.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+.contenedor {
+max-width: 120rem;
+margin: 0 auto 0 auto
+}
+.nav-bg {
+    background-color: violet;
+}
+.navegacion-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media (min-width: 468px) {
+    .navegacion-principal {
+        flex-direction: row;
+}
+}
+.navegacion-principal a  {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navegacion-principal a:hover {
+    background-color: blueviolet;
+    color: black;
+}
+.galeria > div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .galeria img {
+    width: 300px;
+    height: 200px;
+    border-radius: 1rem; 
+    padding: 20px;
+  }
+  .three-columns {
+      width: 32%;
+      display: inline-block;
+  }
+footer {
+    background-color: violet;
+    padding: 1rem 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+footer p {
+    color: white;
+    margin: 0.5rem;
+}
