@@ -26,6 +26,8 @@ margin: 0 auto 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
+
+}
 }
 @media (min-whidth: 768px) {
     .navegacion-principal {
@@ -66,6 +68,32 @@ margin: 0 auto 0 auto;
 .contenido-hero  h2{
  color: white;
 }
+.bloques {
+ float: left;
+}
+.bloque {
+    text-align: center;
+}
+
+.bloque img {
+    width: 100px;
+    height: 100px;
+}
+.bloque__titulo {
+    margin: 0;
+    
+}
+.comprar__titulo {
+    text-align: center;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+    }
 footer {
     background-color: violet;
     padding: 1rem 0;
